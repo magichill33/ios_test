@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60228022807BEFF00ABAFA4 /* CarrouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60228012807BEFF00ABAFA4 /* CarrouselViewController.m */; };
 		D684E14A28067B4B00C67488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D684E14928067B4B00C67488 /* AppDelegate.m */; };
 		D684E14D28067B4C00C67488 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D684E14C28067B4C00C67488 /* SceneDelegate.m */; };
 		D684E15028067B4C00C67488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D684E14F28067B4C00C67488 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D60228002807BEFF00ABAFA4 /* CarrouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarrouselViewController.h; sourceTree = "<group>"; };
+		D60228012807BEFF00ABAFA4 /* CarrouselViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarrouselViewController.m; sourceTree = "<group>"; };
 		D684E14528067B4B00C67488 /* ScrollViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D684E14828067B4B00C67488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D684E14928067B4B00C67488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +84,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D60228032807BF3A00ABAFA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D684E15628067B5200C67488 /* LaunchScreen.storyboard */,
+				D684E15128067B4C00C67488 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D60228082807CEB800ABAFA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D684E14E28067B4C00C67488 /* ViewController.h */,
+				D684E14F28067B4C00C67488 /* ViewController.m */,
+				D60228002807BEFF00ABAFA4 /* CarrouselViewController.h */,
+				D60228012807BEFF00ABAFA4 /* CarrouselViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D684E13C28067B4A00C67488 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +127,13 @@
 		D684E14728067B4B00C67488 /* ScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				D60228082807CEB800ABAFA4 /* Controllers */,
+				D60228032807BF3A00ABAFA4 /* Views */,
 				D684E14828067B4B00C67488 /* AppDelegate.h */,
 				D684E14928067B4B00C67488 /* AppDelegate.m */,
 				D684E14B28067B4B00C67488 /* SceneDelegate.h */,
 				D684E14C28067B4C00C67488 /* SceneDelegate.m */,
-				D684E14E28067B4C00C67488 /* ViewController.h */,
-				D684E14F28067B4C00C67488 /* ViewController.m */,
-				D684E15128067B4C00C67488 /* Main.storyboard */,
 				D684E15428067B5200C67488 /* Assets.xcassets */,
-				D684E15628067B5200C67488 /* LaunchScreen.storyboard */,
 				D684E15928067B5200C67488 /* Info.plist */,
 				D684E15A28067B5200C67488 /* main.m */,
 			);
@@ -269,6 +290,7 @@
 				D684E15028067B4C00C67488 /* ViewController.m in Sources */,
 				D684E14A28067B4B00C67488 /* AppDelegate.m in Sources */,
 				D684E15B28067B5200C67488 /* main.m in Sources */,
+				D60228022807BEFF00ABAFA4 /* CarrouselViewController.m in Sources */,
 				D684E14D28067B4C00C67488 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -466,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
